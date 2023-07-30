@@ -1,0 +1,13 @@
+.receitas {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 132px;
+}

@@ -1,0 +1,111 @@
+body,
+html {
+  height: 100%;
+  background-color: #e9967b;
+}
+
+header {
+  background-color: #373c42;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  height: 25px;
+}
+
+h1 {
+  color: black;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  font-size: 14pt;
+}
+
+.title {
+  font-size: 36pt;
+  color: black;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: black;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.container-fluid {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-left: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle {
+  text-align: center;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_list {
+  list-style: none;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.menu_list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu_list a {
+  text-decoration: none;
+}
+
+.link {
+  color: rgb(184, 184, 184);
+}
+.link-ativo {
+  color: white;
+}
+
+.main {
+  height: calc(100vh - 100px);
+  margin-top: 40px;
+  overflow-y: auto;
+}
+
+.linha {
+  margin-top: 10px;
+}
+
+.linha p {
+  color: black;
+  margin-bottom: 0;
+  margin-top: 7px;
+}
+
+.btn-dark {
+  background-color: #373c42;
+  color: white;
+}
